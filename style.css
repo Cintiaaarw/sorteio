@@ -1,0 +1,31 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 10px;
+    height: calc(100vh - 22px);
+    background: linear-gradient(0deg, rgb(11, 131, 11), rgb(147, 233, 147));
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    font-weight: bold; 
+    color: rgb(237, 239, 243);
+}
+#resultado{
+    font-size: 50px;
+    color: beige;
+}
+.botao{
+    color: rgb(183, 226, 212);
+    background-color: darkgreen;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
